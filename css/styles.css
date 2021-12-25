@@ -11,7 +11,6 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: #e5e5e5;
-  width: 1600px;
   margin: auto;
 }
 
@@ -31,8 +30,7 @@ h6 {
   margin: 0;
 }
 
-ul,
-ol {
+ul {
   margin: 0;
   padding-left: 0;
 }
@@ -337,7 +335,7 @@ header {
 
 .name {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.18;
   text-transform: none;
   letter-spacing: var(--letter-spacing);
@@ -386,7 +384,7 @@ header {
   margin-top: 20px;
 }
 
-.section-fotter {
+.fotter {
   background-color: var(--background-color);
   padding-top: 60px;
   padding-bottom: 60px;
