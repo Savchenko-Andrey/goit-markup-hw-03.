@@ -89,6 +89,10 @@ header {
   border: 1px solid #ececec;
 }
 
+.header-page {
+  padding-right: 25px;
+}
+
 .logo {
   font-family: Raleway;
   color: #2196f3;
@@ -127,6 +131,7 @@ header {
 
 .nav-adress-ithem:first-child {
   margin-right: 50px;
+  margin-left: auto;
 }
 
 .current {
@@ -147,6 +152,16 @@ header {
   margin-left: auto;
   margin-right: 25px;
   /* border: 2px solid navy; */
+}
+
+.color-link {
+  color: var(--ithem-text-color);
+}
+
+.class-contacs {
+  display: flex;
+  text-align: center;
+  margin-left: auto;
 }
 
 .page-nav {
@@ -468,4 +483,18 @@ header {
 .type-progects {
   display: flex;
   flex-wrap: wrap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
