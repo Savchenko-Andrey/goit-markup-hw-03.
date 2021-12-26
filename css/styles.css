@@ -51,10 +51,12 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 94px;
+  padd
 }
 
 .section-hero {
   background-color: var(--background-color);
+  padding: 280px 0 200px 0;
 }
 
 address {
@@ -211,6 +213,7 @@ header {
   font-weight: bold;
   font-size: 16px;
   letter-spacing: 0.06em;
+  border: none;
 }
 
 .button-ithem:hover,
@@ -237,7 +240,7 @@ header {
 /* Особенности */
 
 .about {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .list-features {
@@ -313,7 +316,7 @@ header {
 /* Наша команда */
 
 .teams {
-  margin-top: 94px;
+  padding: 90px ;
   background-color: #f5f4fa;
 }
 
