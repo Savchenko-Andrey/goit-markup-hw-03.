@@ -51,12 +51,11 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 94px;
-  padd
 }
 
 .section-hero {
   background-color: var(--background-color);
-  padding: 280px 0 200px 0;
+  padding: 200px 0;
 }
 
 address {
@@ -120,7 +119,11 @@ header {
   line-height: 1.14;
   color: #212121;
   letter-spacing: 0.02em;
-  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.nav-item-list {
+  margin-left: 93px;
 }
 
 .nav-adress-ithem {
@@ -184,12 +187,6 @@ header {
   letter-spacing: 0.06em;
   margin-top: 0;
   margin-bottom: 30px;
-}
-
-.backgraund-hero {
-  background-color: #2f303a;
-  padding-bottom: 200px;
-  padding-top: 200px;
 }
 
 .button:hover,
@@ -283,7 +280,6 @@ header {
 .head-list {
   color: #212121;
   margin-bottom: 10px;
-  margin-top: 30px;
   font-weight: bold;
   line-height: 14px;
   line-height: 1.14;
@@ -315,8 +311,12 @@ header {
 
 /* Наша команда */
 
+.team-name-list {
+  border: 30px;
+}
+
 .teams {
-  padding: 90px ;
+  padding: 90px 0;
   background-color: #f5f4fa;
 }
 
@@ -356,11 +356,10 @@ header {
   line-height: 1.18;
   text-transform: none;
   letter-spacing: var(--letter-spacing);
-  margin-top: 30px;
 }
 
-.text-list {
-  margin-top: 10px;
+.team-name-text {
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 
@@ -450,9 +449,7 @@ header {
   line-height: 2;
   color: #212121;
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-bottom: 4px;
-  margin-left: 24px;
+  margin-bottom: 10px;
 }
 
 .text-progects {
@@ -460,7 +457,6 @@ header {
   line-height: 1.87;
   color: #757575;
   letter-spacing: var(--letter-spacing);
-  margin-left: 24px;
 }
 
 .list-progects {
@@ -469,8 +465,15 @@ header {
   box-sizing: border-box;
   margin-left: 30px;
   margin-bottom: 30px;
-  text-align: left;
+  text-align: center;
   padding-bottom: 20px;
+}
+
+.list-progects-text {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .list-progects:nth-child(3n + 1) {
